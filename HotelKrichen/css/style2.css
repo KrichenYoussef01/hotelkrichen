@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #555; 
+}
+
+p {
+    margin-bottom: 20px; 
+    font-weight: bold;
+    color: rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dd{
+    color: aquamarine;
+    font-weight: 900;
+}
+.img{
+    transition:transform 0.5s;
+
+}
+.img:hover{
+    -ms-transform: scale(1.5s);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
